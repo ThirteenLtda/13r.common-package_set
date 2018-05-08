@@ -4,5 +4,7 @@ version_control:
         github: thirteenltda/drivers-$PACKAGE_BASENAME
     - drivers/orogen/.*:
         github: thirteenltda/drivers-orogen-$PACKAGE_BASENAME
+    - drivers/orogen/linux_gpios:
+        github: rock-drivers/drivers-orogen-linux_gpios
 
 overrides:

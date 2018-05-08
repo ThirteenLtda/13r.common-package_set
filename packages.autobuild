@@ -1,2 +1,3 @@
 cmake_package "drivers/raw_io"
 orogen_package "drivers/orogen/raw_io"
+orogen_package "drivers/orogen/linux_gpios"
