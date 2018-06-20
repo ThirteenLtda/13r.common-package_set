@@ -1,3 +1,7 @@
 cmake_package "drivers/raw_io"
 orogen_package "drivers/orogen/raw_io"
 orogen_package "drivers/orogen/linux_gpios"
+orogen_package "drivers/canopen_master"
+orogen_package "drivers/motors_elmo_ds402"
+orogen_package "drivers/orogen/canopen_master"
+orogen_package "drivers/orogen/motors_elmo_ds402"
