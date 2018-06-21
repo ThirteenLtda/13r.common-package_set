@@ -4,6 +4,12 @@ version_control:
         github: thirteenltda/drivers-$PACKAGE_BASENAME
     - drivers/orogen/.*:
         github: thirteenltda/drivers-orogen-$PACKAGE_BASENAME
+    - tools/.*:
+        github: thirteenltda/tools-$PACKAGE_BASENAME
+    - drivers/canopen_master:
+        github: rock-drivers/drivers-canopen_master
+    - drivers/orogen/canopen_master:
+        github: rock-drivers/drivers-orogen-canopen_master
     - drivers/orogen/linux_gpios:
         github: rock-drivers/drivers-orogen-linux_gpios
 
